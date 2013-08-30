@@ -23,4 +23,9 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "yell"
   spec.add_development_dependency "eventmachine"
   spec.add_development_dependency "subtle"
+
+  spec.add_runtime_dependency "daemons"
+  spec.add_runtime_dependency"yell"
+  spec.add_runtime_dependency "eventmachine"
+  spec.add_runtime_dependency "subtle"
 end
