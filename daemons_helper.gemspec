@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'daemons_helper/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "pci_workflows"
+  spec.name          = "daemons_helper"
   spec.version       = DaemonsHelper::VERSION
   spec.authors       = ["Ferris Lucas"]
   spec.email         = ["ferris.lucas@gmail.com"]
