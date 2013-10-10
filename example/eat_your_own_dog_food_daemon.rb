@@ -1,4 +1,4 @@
-# bundle exec ruby test/eat_your_own_dog_food_daemon.rb start/stop/run
+# bundle exec ruby eat_your_own_dog_food_daemon.rb start/stop/run
 
 require_relative '../lib/daemons_helper/daemon_base'
 
