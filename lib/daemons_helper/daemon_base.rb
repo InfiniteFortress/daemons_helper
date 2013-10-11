@@ -79,7 +79,7 @@ module DaemonsHelper
 
     def log message
       @logger.info(message) if @logger
-      puts(message) unless @logger
+      puts(message)
     end
   end
 end
